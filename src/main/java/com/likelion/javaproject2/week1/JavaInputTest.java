@@ -6,7 +6,8 @@ import java.io.InputStreamReader;
 public class JavaInputTest {
     public static void main(String[] args) throws IOException {
         JavaInput javaInput = new JavaInput();
-        javaInput.readOneChar();
-
+        //javaInput.readOneChar();
+        javaInput.readTwoChars();
     }
+
 }
