@@ -6,13 +6,18 @@ import java.io.InputStreamReader;
 public class JavaInputTest {
     public static void main(String[] args) throws IOException {
         JavaInput javaInput = new JavaInput();
-        //javaInput.readOneChar();
-        javaInput.readTwoChars();
+//        javaInput.readOneChar();
+//        javaInput.readTwoChars();
+//
+//        BufferedReaderEx bufferedReaderEx = new BufferedReaderEx();
+//        bufferedReaderEx.readALine();
+//
+//        bufferedReaderEx.readTwoLines();
 
-        BufferedReaderEx bufferedReaderEx = new BufferedReaderEx();
-        bufferedReaderEx.readALine();
+        BufferedSum bufferedSum = new BufferedSum();
+        bufferedSum.addTwo();
 
-        bufferedReaderEx.readTwoLines();
+//        bufferedSum.plusTwoNumbers();
     }
 
 }
