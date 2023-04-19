@@ -8,6 +8,11 @@ public class JavaInputTest {
         JavaInput javaInput = new JavaInput();
         //javaInput.readOneChar();
         javaInput.readTwoChars();
+
+        BufferedReaderEx bufferedReaderEx = new BufferedReaderEx();
+        bufferedReaderEx.readALine();
+
+        bufferedReaderEx.readTwoLines();
     }
 
 }
