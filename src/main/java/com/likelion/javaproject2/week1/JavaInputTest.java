@@ -14,10 +14,13 @@ public class JavaInputTest {
 //
 //        bufferedReaderEx.readTwoLines();
 
-        BufferedSum bufferedSum = new BufferedSum();
-        bufferedSum.addTwo();
+//        BufferedSum bufferedSum = new BufferedSum();
+//        bufferedSum.addTwo();
 
 //        bufferedSum.plusTwoNumbers();
+
+        ScannerEx scannerEx = new ScannerEx();
+        scannerEx.ScanTwoSum();
     }
 
 }
