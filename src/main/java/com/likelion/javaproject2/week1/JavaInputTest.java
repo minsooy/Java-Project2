@@ -21,6 +21,9 @@ public class JavaInputTest {
 
         ScannerEx scannerEx = new ScannerEx();
         scannerEx.ScanTwoSum();
+
+        ScannerEx2 scannerEx2 = new ScannerEx2();
+        scannerEx2.ScanTwo();
     }
 
 }
