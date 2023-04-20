@@ -13,4 +13,9 @@ public class ScannerEx {
         System.out.println("sum = " + sum);
     }
 
+    public void ScanAnySum(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println(sc.next() + sc.next());
+    }
+
 }
