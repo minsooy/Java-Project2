@@ -4,4 +4,8 @@ public class User {
     String name;
     String phoneNo;
     int age;
+
+    boolean isAdult(){
+        return age >=18;
+    }
 }
