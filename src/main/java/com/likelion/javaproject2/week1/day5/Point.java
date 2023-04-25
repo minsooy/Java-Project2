@@ -16,5 +16,7 @@ public class Point {
 
         return(sqrt(xDistance*xDistance + yDistance*yDistance));
 
+
     }
+
 }
