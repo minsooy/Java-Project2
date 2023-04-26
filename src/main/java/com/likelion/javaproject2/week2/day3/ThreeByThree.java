@@ -1,5 +1,7 @@
 package com.likelion.javaproject2.week2.day3;
 
+import java.util.Arrays;
+
 public class ThreeByThree {
     public static void main(String[] args) {
         int[][] chart33 = new int[3][3];
@@ -13,6 +15,9 @@ public class ThreeByThree {
         chart33[2][1] = 8;
         chart33[2][2] = 9;
 
+        System.out.println(Arrays.toString(chart33[0]));
+        System.out.println(Arrays.toString(chart33[1]));
+        System.out.println(Arrays.toString(chart33[2]));
 
     }
 }
