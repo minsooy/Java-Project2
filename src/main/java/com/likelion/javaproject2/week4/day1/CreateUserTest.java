@@ -1,6 +1,4 @@
-package com.likelion.javaproject2.week4;
-
-import com.likelion.javaproject2.week1.day5.User;
+package com.likelion.javaproject2.week4.day1;
 
 class CreateUserTest {
     public static void main(String[] args) {

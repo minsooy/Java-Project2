@@ -1,4 +1,4 @@
-package com.likelion.javaproject2.week4;
+package com.likelion.javaproject2.week4.day1;
 
 
 
