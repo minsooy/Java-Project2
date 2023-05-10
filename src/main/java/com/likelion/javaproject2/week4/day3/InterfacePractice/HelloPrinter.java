@@ -22,7 +22,7 @@ public class HelloPrinter {
     }
 
     public static void main(String[] args) throws IOException {
-        HelloPrinter hp = new HelloPrinter(new HelloToFile()); // 인스턴스 생성
+        HelloPrinter hp = new HelloPrinter(new FilePrinter2()); // 인스턴스 생성
         hp.repeatMessage(5, "Hello"); // 호출
     }
 }

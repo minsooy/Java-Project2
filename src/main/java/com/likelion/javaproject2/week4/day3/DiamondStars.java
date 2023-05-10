@@ -1,8 +1,12 @@
 package com.likelion.javaproject2.week4.day3;
 
 import com.likelion.javaproject2.week4.day2.ShapeDrawer;
+import com.likelion.javaproject2.week4.day3.InterfacePractice.ConsolePrinter;
+import com.likelion.javaproject2.week4.day3.InterfacePractice.ConsolePrinter2;
+import com.likelion.javaproject2.week4.day3.InterfacePractice.FilePrinter2;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class DiamondStars {
@@ -29,13 +33,13 @@ public class DiamondStars {
 
 
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
         Scanner sc= new Scanner(System.in);
         int num = sc.nextInt();
         int pivot = num / 2;
         String directory = "C:\\Users\\82108\\Desktop\\diamond.txt";
 
-        ShapeDrawer sd = new DiamondShapeDrawer();
+        ShapeDrawer sd = new DiamondShapeDrawer(new ConsolePrinter2());
         sd.printToFile(num , directory);
         sd.printShape(num);
 

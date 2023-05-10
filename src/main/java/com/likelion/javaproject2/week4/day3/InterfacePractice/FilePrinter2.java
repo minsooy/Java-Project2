@@ -4,7 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class HelloToFile implements Printer2{
+public class FilePrinter2 implements Printer2{
     @Override
     public void print(String lines) throws IOException {
         BufferedWriter bw = new BufferedWriter(new FileWriter("./hello.txt"));

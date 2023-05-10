@@ -1,8 +1,13 @@
 package com.likelion.javaproject2.week4.day3;
 
 import com.likelion.javaproject2.week4.day2.ShapeDrawer;
+import com.likelion.javaproject2.week4.day3.InterfacePractice.Printer;
+import com.likelion.javaproject2.week4.day3.InterfacePractice.Printer2;
 
 public class DiamondShapeDrawer extends ShapeDrawer {
+    public DiamondShapeDrawer(Printer2 printer){
+        super(printer);
+    }
 
     @Override
     public String makeALine(int h, int i) {
