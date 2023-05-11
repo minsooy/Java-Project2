@@ -15,5 +15,15 @@ public class ListEx {
         l1.remove(0);
         l1.remove(0);
         System.out.println(l1.isEmpty());
+
+        for(var item :l1){
+            System.out.println(item);
+        }
+
+        List<String> list2 = new ArrayList<>();
+        for(String item : list2){
+            System.out.println(item.split( ""));
+        }
+
     }
 }
