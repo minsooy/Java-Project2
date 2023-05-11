@@ -63,9 +63,10 @@ public class CodeUp3108 {
     // code가 I일 경우 학생추가
     // code가 D일 경우 학생삭제
     public void process(Student pStudent) {
-        switch (pStudent.getCode()) {
-            case "I" -> addAStudent(pStudent);
-            case "D" -> deleteStudent(pStudent);
+        if(pStudent.getCode().equals("I")){
+            addAStudent(pStudent);
+        }else{
+            deleteStudent(pStudent);
         }
     }
 
