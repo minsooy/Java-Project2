@@ -71,6 +71,7 @@ public class CodeUp3108 {
     }
 
     // print기능
+    // 인덱스의 리스트를 받아서 그 인덱스의 정보만 출력
     private void printStudents(String[] indexList) {
         for (int i = 0; i < indexList.length; i++) {
             int index = Integer.parseInt(indexList[i]) - 1;
@@ -90,6 +91,7 @@ public class CodeUp3108 {
         sc.nextLine();
         String[] indexList = sc.nextLine().split(" ");
 
+        //오름차순으로 정렬
         codeUp3108.students.sort((s1, s2) -> Integer.compare(s1.getTestId(), s2.getTestId()));
 
         codeUp3108.printStudents(indexList);
